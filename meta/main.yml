@@ -1,0 +1,7 @@
+---
+galaxy_info:
+  role_name: container-httpd
+  description: installs a containerized httpd service
+
+dependencies:
+  - role: podman
