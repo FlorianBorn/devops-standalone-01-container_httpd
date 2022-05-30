@@ -1,6 +1,6 @@
 ---    
 # https://docs.ansible.com/ansible/latest/galaxy/user_guide.html#dependencies
-roles:
+dependencies:
   - src: https://github.com/FlorianBorn/devops-standalone-01-podman.git
     version: "1.0.0"
     name: podman
