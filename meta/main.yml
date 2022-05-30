@@ -1,9 +1,10 @@
 ---
+# https://docs.ansible.com/ansible/latest/galaxy/user_guide.html#dependencies
 galaxy_info:
   role_name: container-httpd
   description: installs a containerized httpd service
 
-dependencies:
-  - src: git+https://github.com/geerlingguy/ansible-role-composer.git
-    version: "1.0.0"
-    name: podman
+#dependencies:
+#  - src: git+https://github.com/geerlingguy/ansible-role-composer.git
+#    version: "1.0.0"
+#    name: podman
