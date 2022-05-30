@@ -4,5 +4,6 @@ galaxy_info:
   description: installs a containerized httpd service
 
 dependencies:
-  - role: podman
-    src: git+https://github.com/geerlingguy/ansible-role-composer.git
+  - src: git+https://github.com/geerlingguy/ansible-role-composer.git
+    version: "1.0.0"
+    name: podman
