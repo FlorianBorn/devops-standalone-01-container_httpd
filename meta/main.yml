@@ -1,0 +1,8 @@
+galaxy_info:
+  role_name: container-httpd
+  description: starts a containerized webserver
+
+dependencies:
+  - src: git+https://github.com/FlorianBorn/devops-exercises.git
+    version: main
+    name: podman
